@@ -51,12 +51,23 @@ a {
 
 /* CUSTOM STYLING  */
 
+
+/* Nav bar & links */
+.navbar {
+    padding: 15px;
+    justify-content: center;
+    margin: 0 100px;
+}
+
 h4 {
     font-size: 24px; 
     color: var(--hero-logo-color);
+    margin-right: auto;
 }
 
 h3 {
     font-size: 18px;
     color: var(--hero-secondary-color);
+    display: flex;
+    margin: 0 15px;
 }
