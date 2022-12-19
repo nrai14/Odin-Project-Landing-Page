@@ -27,4 +27,36 @@ a {
     text-decoration: none;
 }
 
+/* GLOBAL CLASSES*/
+.row, .column {
+    display: flex;
+}
+
+.column {
+    flex-direction: column; 
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+
 /* CUSTOM STYLING  */
+
+h4 {
+    font-size: 24px; 
+    color: var(--hero-logo-color);
+}
+
+h3 {
+    font-size: 18px;
+    color: var(--hero-secondary-color);
+}
