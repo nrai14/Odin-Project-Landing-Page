@@ -53,6 +53,11 @@ a {
 
 
 /* Nav bar & links */
+.top-half {
+    background-color: var(--hero-footer-color);
+    height: 70vh;
+}
+
 .navbar {
     padding: 15px;
     justify-content: center;
@@ -71,3 +76,24 @@ h3 {
     display: flex;
     margin: 0 15px;
 }
+
+/* Hero section */
+.hero, h2 {
+    color: var(--hero-main-text-color);
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+.hero, p {
+    color: var(--hero-secondary-color);
+    font-size: 18px;
+}
+
+button {
+    background-color: var(--button-color);
+    border-color: var(--button-color);
+    padding: 5px 25px;
+    border-radius: 5px;
+    color: white;
+}
+
